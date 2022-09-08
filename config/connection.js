@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const connection = sql.createConnection(
     {
-        host: 'localhost',
+        host: '127.0.0.1',
         multipleStatements: true,
         user: process.env.DB_USER,
         password: process.env.DB_PASSWORD,
