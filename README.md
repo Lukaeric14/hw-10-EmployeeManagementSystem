@@ -2,16 +2,13 @@
 
 ## Description
 
-Application 
+Application made to manage your employee records. 
 
 ## Table of Contents
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Walkthrough](#walkthrough)
 - [Questions](#questions)
-
 
 ## Installation
 
@@ -22,7 +19,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Walkthrough
 
-Link: 
+Link: https://drive.google.com/file/d/1Sak1qyFnfJsbYBq1dZim_716m26PaTQb/view?usp=sharing
 
 ## Questions
 
