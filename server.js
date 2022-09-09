@@ -132,10 +132,31 @@ function  createRole() {
             department_id: data.departmentName,
             salary: data.roleSalary,
           })
-    });
+    })
 }
 
 function createEmployee() {
-
-
-}
+    inquirer.prompt([{
+        type: 'input',
+        name: 'firstName',
+        Message: 'First Name:'
+    },{
+        type: 'input',
+        name: 'lastName',
+        Message: 'Last Name:'
+    },{
+        type: 'input',
+        name: 'managerID',
+        Message: 'Manager Name (by ID):'
+    }, {
+        type: 'input',
+        name: 'roleID',
+        Message: 'Role Name (by ID):'
+    }]).then(function(data) {
+        config.query('INSERT INTO employee SET ?', {
+            first_name: data.first_name,
+            last_name: data.last_name,
+            role_id: data.role_id,
+            manager_id: data.manager_id,
+          })
+})}

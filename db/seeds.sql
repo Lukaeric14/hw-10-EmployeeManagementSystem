@@ -1,31 +1,26 @@
 INSERT INTO department (department_name)
 VALUES 
-    ('Engineering'),
-    ('Finance'),
-    ('Legal'),
-    ('Sales');
-
+    ('Management'),
+    ('Accounting'),
+    ('Sales'),
+    ('Marketing');
 
 INSERT INTO roles (title, salary, department_id)
 VALUES
-    ('Salesperson', 50000, 4),
-    ('Lawyer', 100000, 3),
-    ('CPA', 100000, 2),
-    ('Computer Enginner', 80000, 1),
-    ('Investment Banker', 200000, 2),
-    ('Chemical Enginner', 90000, 1);
-
+    ('CEO', 650000, 1),
+    ('CFO', 230000, 1),
+    ('Sales Director', 120000, 3),
+    ('Accountant', 47000, 2),
+    ('Marketing Associate', 40000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-    ('John', 'Doe', 1, NULL),
-    ('Jane', 'Doe', 4, 5),
-    ('Ashley', 'Smith', 2, 5),
-    ('Sarah', 'Rodriguez', 3, 5),
-    ('James', 'Bond', 5, NULL),
-    ('Anakin', 'Skywalker', 6, 5),
-    ('Hermione', 'Granger', 6, 5),
-    ('Princess', 'Lea', 1, 5),
-    ('Michelle', 'Walker', 3, 5),
-    ('Ben', 'Smith', 1, 5);
+    ('Luka', 'Eric', 1, NULL),
+    ('Bristol', 'Corinne', 3, 2),
+    ('Adelle', 'Irma', 2, 2),
+    ('Nikole', 'Cathleen', 4, 2),
+    ('Ron', 'Kieron', 4, NULL),
+    ('Amelia', 'Collyn', 5, 1),
+    ('Winthrop', 'Eula', 5, 1);
+
 
